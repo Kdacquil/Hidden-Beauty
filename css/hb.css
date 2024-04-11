@@ -33,12 +33,12 @@ https://templatemo.com/tm-584-pod-talk
   --h3-font-size:                 32px;
   --h4-font-size:                 28px;
   --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
+  --h6-font-size:                 20px;
   --p-font-size:                  16px;
   --menu-font-size:               14px;
 
   --border-radius-large:          100px;
-  --border-radius-medium:         20px;
+  --border-radius-medium:         28px;
   --border-radius-small:          10px;
 
   --font-weight-light:            300;
@@ -530,7 +530,7 @@ main {
   bottom: 0;
   right: 0;
   left: 0;
-  padding: 30px;
+  padding: 10px;
 }
 
 .badge {
@@ -835,6 +835,10 @@ main {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
+  left: 165px;
+
+  
+  
 }
 
 .team-info {
@@ -843,7 +847,9 @@ main {
   bottom: 0;
   right: 0;
   left: 0;
-  padding: 30px;
+  padding: 10px;
+  text-align: center;
+  
 }
 
 
@@ -1024,7 +1030,7 @@ main {
 
 .site-footer-title,
 .site-footer p {
-  color: var(--white-color);
+  color: var(--dark-color);
 }
 
 .site-footer p strong {
@@ -1032,7 +1038,7 @@ main {
 }
 
 .site-footer p a {
-  color: var(--white-color);
+  color: var(--dark-color);
   border-bottom: 1px solid;
   padding-bottom: 3px;
 }
@@ -1061,7 +1067,7 @@ main {
 }
 
 .site-footer-link {
-  color: var(--white-color);
+  color: var(--dark-color);
   font-size: var(--p-font-size);
   line-height: inherit;
 }
